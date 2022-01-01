@@ -30,7 +30,7 @@ Pre-requisites: Install mongo, node, and Vue
 	* npm install - to install all the node modules
 	* run mongod to start the mongodb server locally
 	* node server.js
-3. To keep the frontend running:
+3. To keep the frontend running: ([Frontend Steps](https://github.com/AjayKumarR24430/Vue-Crud-Operations/blob/main/vue_frontend/client-crud/README.md))
 	* cd vue_frontend
 	* npm install - to install all the node modules
 	* npm run serve

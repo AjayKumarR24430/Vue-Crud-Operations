@@ -32,7 +32,7 @@ Run the command:
     - body-parser helps to parse the request and create the req.body object
     - cors provides Express middleware to enable CORS with various options.
 
-#### Start a new terminal and run the command:
+#### Open a new terminal and run the command:
 	- mongod: to start the mongodb localhost
 
 ### Run the app with command: node server.js
