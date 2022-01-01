@@ -25,7 +25,7 @@ The back-end server uses Node.js + Express for REST APIs, front-end side is a Vu
 Pre-requisites: Install mongo, node, and Vue
 
 1. Clone this repository.
-2. To keep the backend running:  [Backend Steps](hhttps://github.com/AjayKumarR24430/Vue-Crud-Operations/blob/main/node_backend/README.md) 
+2. To keep the backend running:  ([Backend Steps](https://github.com/AjayKumarR24430/Vue-Crud-Operations/blob/main/node_backend/README.md)) 
 	* cd node_backend
 	* npm install - to install all the node modules
 	* run mongod to start the mongodb server locally
