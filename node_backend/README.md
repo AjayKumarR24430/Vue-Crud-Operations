@@ -31,3 +31,5 @@ Run the command:
     - Express is for building the Rest apis
     - body-parser helps to parse the request and create the req.body object
     - cors provides Express middleware to enable CORS with various options.
+
+### run the app with command: node server.js
