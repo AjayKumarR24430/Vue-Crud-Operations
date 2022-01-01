@@ -17,8 +17,17 @@
 
 
 ### Files and its functionalities:
-– db.config.js exports configuring parameters for MongoDB connection & Mongoose.
-– Express web server in server.js where we configure CORS, initialize & run Express REST APIs.
-– Next, we add configuration for MongoDB database in models/index.js, create Mongoose data model in models/client.model.js and models/provider.model.js.
-– Client and Provider controllers in controllers.
-– Routes for handling all CRUD operations (including custom finder) in client.routes.js and provider.routes.js.
+- db.config.js exports configuring parameters for MongoDB connection & Mongoose.
+- Express web server in server.js where we configure CORS, initialize & run Express REST APIs.
+- Next, we add configuration for MongoDB database in models/index.js, create Mongoose data model in models/client.model.js and models/provider.model.js.
+- Client and Provider controllers in controllers.
+- Routes for handling all CRUD operations (including custom finder) in client.routes.js and provider.routes.js.
+
+### We need to install necessary modules: express, mongoose, body-parser and cors.
+Run the command:
+* npm install
+
+#### Roles of modules:
+    - Express is for building the Rest apis
+    - body-parser helps to parse the request and create the req.body object
+    - cors provides Express middleware to enable CORS with various options.
