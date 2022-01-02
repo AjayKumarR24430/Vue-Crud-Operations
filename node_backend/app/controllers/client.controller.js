@@ -67,23 +67,6 @@ exports.findOne = (req, res) => {
     });
 };
 
-// //get a client using name
-// exports.findClient = (req, res) => {
-//   const title = req.query.name;
-//   var condition = name ? { name: { $regex: new RegExp(name), $options: "i" } } : {};
-
-//   Client.find(condition)
-//     .then(data => {
-//       res.send(data);
-//     })
-//     .catch(err => {
-//       res.status(500).send({
-//         message:
-//           err.message || "Some error occurred while retrieving client."
-//       });
-//     });
-// };
-
 // Update a client by the id in the request
 exports.update = (req, res) => {
   if (!req.body) {
